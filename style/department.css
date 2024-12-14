@@ -1,0 +1,160 @@
+:root {
+  --color-primary: #5ec576;
+  --color-secondary: #ffcb03;
+  --color-tertiary: #ff585f;
+  --color-primary-darker: #4bbb7d;
+  --color-secondary-darker: #ffbb00;
+  --color-tertiary-darker: #fd424b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: var(--primary-color);
+}
+
+.about-par {
+  font-size: 20px;
+  padding: 0 30px;
+  margin-left: 30px;
+}
+
+h3 {
+  margin: 100px 0;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.main ul,
+.main ol {
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+h4,
+li,
+p {
+  color: var(--third-color);
+}
+
+h5 {
+  font-size: 20px;
+}
+
+#operation {
+  height: 70vh;
+}
+
+.operations {
+  max-width: 70rem;
+  margin: 0px auto;
+  padding: 0 2rem 2rem 2rem;
+  border-radius: 50px;
+  background-color: var(--primary-color);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.4);
+  text-align: justify;
+}
+
+.operation-tab,
+.operation-tab2,
+.operation-tab3 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  color: var(--third-color);
+}
+
+.content ul {
+  list-style: disc;
+}
+
+.tab-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 45px;
+  width: 300px;
+  border: none;
+  border-radius: 50px;
+  transform: translateY(-50%);
+  transition: all 0.5s;
+}
+
+.active-tab,
+.active-tab2,
+.active-tab3 {
+  transform: translateY(-80%);
+  transition: all 0.5s;
+}
+
+.tab-1 {
+  background-color: var(--color-primary);
+}
+.tab-1:hover {
+  background-color: var(--color-primary-darker);
+}
+.tab-2 {
+  background-color: var(--color-secondary);
+}
+.tab-2:hover {
+  background-color: var(--color-secondary-darker);
+}
+.tab-3 {
+  background-color: var(--color-tertiary);
+}
+.tab-3:hover {
+  background-color: var(--color-tertiary-darker);
+}
+.tab-4 {
+  background-color: #3dbcbc;
+}
+.tab-4:hover {
+  background-color: #39baba;
+}
+
+.content-1,
+.content-2,
+.content-3,
+.content-4,
+.content-2-1,
+.content-2-2,
+.content-2-3,
+.content-2-4,
+.content-3-1,
+.content-3-2,
+.content-3-3,
+.content-3-4 {
+  display: none;
+}
+
+.active-content,
+.active-content2,
+.active-content3 {
+  display: block;
+}

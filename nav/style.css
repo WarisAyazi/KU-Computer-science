@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #444;
+}
+
+/* ------------------------------------------------ */
+
+/* ------------------------------------------------ */
+main {
+  background-color: #f9f9f9;
+}
+
+.main-contener {
+  margin: 0 auto;
+  width: 120rem;
+  padding-top: 8rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 4.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 1rem 4.5rem;
+  /* margin-top: 4rem; */
+}
+.sub {
+  height: 40rem;
+  width: 30rem;
+  border-radius: 1rem;
+}
+.subjects-contener {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 1rem;
+}
+.seme {
+  border-radius: 3rem;
+  background-color: rgba(3, 57, 104, 0.196);
+  padding: 4rem 0;
+  margin-bottom: 2rem;
+}
+.subject {
+  background-color: rgba(220, 228, 245, 0.635);
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: solid 2px #444;
+  border-radius: 2rem;
+}
+
+.name,
+.book {
+  display: block;
+  font-size: 2rem;
+  margin-top: 2rem;
+}

@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viweport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Computer Science Faculty</title>
+    <link href="../style.css" rel="stylesheet" />
+    <link href="../style/department.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://img.icons8.com/dotty/80/workstation.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="frist-header">
+        <img
+          width="80"
+          height="80"
+          src="https://img.icons8.com/dotty/80/workstation.png"
+          alt="workstation"
+          class="logo-icon"
+        />
+        <h1>Computer Science Faculty</h1>
+        <div class="mode-color">
+          <div class="lig-dark-btn btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="btn-icon sun icon-hidden"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="btn-icon moon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+              />
+            </svg>
+          </div>
+          <!-- <button class="mode-color btn">Web color</button> -->
+        </div>
+        <div class="secend-header">
+          <nav class="nav-list">
+            <a href="../index.html" class="nav-link home">Home</a>
+            <a href="../nav/about.html" class="nav-link home">About</a>
+            <a href="../nav/department.html" class="nav-link">deprtemants</a>
+            <a href="../nav/student.html" class="nav-link">Student</a>
+            <a href="../nav/library.html" class="nav-link">Library</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="slider">
+        <div class="slide">
+          <img src="../img/library1.jpg" alt="slider" class="hero-img" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section sec-sub">
+      <div class="sub-header">
+        <div class="sub-logo">
+          <i class="fa-solid fa-computer sub-logo-icon"></i>
+        </div>
+        <div class="sub-mnue">
+          <nav class="sub-nav-list">
+            <ul class="sub-ul">
+              <li class="li">
+                <a href="../index.html" class="sub-nav-link home">Home</a>
+                <ul class="hover-sub-header Web-Design">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../index.html#latest" class="hover-link"
+                      >Latest News</a
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../index.html#department" class="hover-link"
+                      >Department</a
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../index.html#collec" class="hover-link"
+                      >Gallery
+                    </a>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../index.html#Nurture" class="hover-link"
+                      >To Nurture Talent</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="li">
+                <a href="nav/about.html" class="sub-nav-link home">About</a>
+                <ul class="hover-sub-header">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/about.html#vision" class="hover-link"
+                      >Vision</a
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/about.html#vision" class="hover-link"
+                      >Mission</a
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/about.html#vision" class="hover-link"
+                      >Goals
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="li">
+                <a href="../nav/department.html" class="sub-nav-link"
+                  >deprtemants</a
+                >
+                <ul class="hover-sub-header">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/department.html#is" class="hover-link"
+                      >Information System</a
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/department.html#it" class="hover-link"
+                      >Information Technology</a
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/department.html#se" class="hover-link"
+                      >Software Engineering</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="li">
+                <a href="../nav/student.html" class="sub-nav-link">Student</a>
+              </li>
+              <li class="li">
+                <a href="../nav/library.html" class="sub-nav-link">Library</a>
+                <ul class="hover-sub-header Web-Design">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/library.html#lib1" class="hover-link">
+                      Progriming Language</a
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/library.html#lib1" class="hover-link"
+                      >Mathematics</a
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/library.html#lib2" class="hover-link"
+                      >Web Design</a
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="header-btn-icon"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                    <a href="../nav/library.html#lib2" class="hover-link"
+                      >Database design</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="goto">
+        <a href="#" class="goto-link"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="goto-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <section id="is" class="section">
+      <div class="main">
+        <h3>DEPARTMENT OF INFORMATION SYSTEMS</h3>
+
+        <div id="operation" class="operations">
+          <div class="operation-tab">
+            <button class="tab-btn tab-1 active-tab" data-tab="1">
+              <span>01</span>
+              <h5>Vision</h5>
+            </button>
+            <button class="tab-btn tab-2" data-tab="2">
+              <span>02</span>
+              <h5>Mission</h5>
+            </button>
+            <button class="tab-btn tab-3" data-tab="3">
+              <span>03</span>
+              <h5>Objectives</h5>
+            </button>
+            <button class="tab-btn tab-4" data-tab="4">
+              <span>04</span>
+              <h5 style="font-size: 16px">department members</h5>
+            </button>
+          </div>
+          <div class="operation-content">
+            <div class="content content-1 active-content">
+              <ul>
+                <li>
+                  To build an excellent reputation at national, regional and
+                  international levels by providing a quality, effective and
+                  efficient computer science education to the students.
+                </li>
+                <li>
+                  To produce quality computer scientists at bachelor, master and
+                  doctoral levels who could be leaders, researchers, educators,
+                  problem solvers, life-long-learners and entrepreneurs by
+                  involving stakeholders and applying principles of continual
+                  quality improvement to enhance its program and faculty.
+                </li>
+                <li>
+                  Participate and promote inter-disciplinary research and
+                  innovative activities among professionals and contribute to
+                  the Afghanistan’s economy and self-sustainability.
+                </li>
+              </ul>
+            </div>
+            <div class="content content-2">
+              <ul>
+                <li>
+                  To educate highly qualified students based on widely accepted
+                  educational practices for a successful professional career.
+                </li>
+                <li>
+                  To provide a learning environment that can help students learn
+                  professional, research, leadership, problem-solving,
+                  life-long-learning and entrepreneurship skills.
+                </li>
+                <li>
+                  To produce graduates with necessary professional skills that
+                  can propose, plan, design, build, develop, manage, maintain
+                  and secure technological solutions and infrastructures that
+                  can help Afghanistan in building a transparent, reliable,
+                  strong and self-sustainable economy and governance.
+                </li>
+              </ul>
+            </div>
+            <div class="content content-3">
+              <ul>
+                <li>
+                  Ability to design, implement and evaluate a computer-based
+                  system or program that meets the needs of organizational
+                  stakeholders.
+                </li>
+                <li>
+                  Ability to criticize interface front-end, system back-end,
+                  analyze data and apply technical solutions to computerized
+                  systems.
+                </li>
+                <li>
+                  Ability to work collaboratively and communicate effectively
+                  with information system stakeholder’s /business partners,
+                  users, customers, third-party providers as well as system
+                  analysts, designers and developers.
+                </li>
+              </ul>
+            </div>
+            <div class="content content-4">
+              <ol>
+                <li>M. Shoaib Zarinkhail</li>
+                <li>Abdul Rahman Safi</li>
+                <li>Ziaullah Momand</li>
+                <li>Lutfurahman Haqmal</li>
+                <li>Majid Ayoubi</li>
+                <li>Hedayatullah Lodiin</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="it" class="section">
+      <div class="main">
+        <h3>DEPARTMENT OF INFORMATION TECHNOLOGY</h3>
+
+        <div id="operation" class="operations">
+          <div class="operation-tab2">
+            <button class="tab-btn tab-1 active-tab2" data-tab="1">
+              <span>01</span>
+              <h5>Vision</h5>
+            </button>
+            <button class="tab-btn tab-2" data-tab="2">
+              <span>02</span>
+              <h5>Mission</h5>
+            </button>
+            <button class="tab-btn tab-3" data-tab="3">
+              <span>03</span>
+              <h5>Goals</h5>
+            </button>
+            <button class="tab-btn tab-4" data-tab="4">
+              <span>04</span>
+              <h5 style="font-size: 16px">department members</h5>
+            </button>
+          </div>
+          <div class="operation-content">
+            <div class="content content-2-1 active-content2">
+              <ul>
+                <li>
+                  Building an excellent reputation at national, regional and
+                  international levels by providing quality, effective and
+                  efficient IT education to the students based on acceptable
+                  standards and IT curriculum framework.
+                </li>
+                <li>
+                  Producing graduates that can meet the local and regional IT
+                  job requirements and skills demand based on a standard
+                  competency based IT curriculum model in consideration of the
+                  local needs and futuristic view IT domains.
+                </li>
+                <li>
+                  Being part of global research communities and actively
+                  contribute to the computer science knowledge and promote
+                  research and innovation among the Afghan computer scientists.
+                </li>
+              </ul>
+            </div>
+            <div class="content content-2-2">
+              <ul>
+                <li>
+                  Graduate highly qualified students based on a widely accepted
+                  IT educational standards and curriculum framework (ACM/IEEE
+                  IT2017) and guidelines for a successful professional career
+                  considering the Afghanistan’s job market and stakeholder
+                  needs.
+                </li>
+                <li>
+                  Provide a learning environment that can help students to learn
+                  professional, research, leadership, problem-solving, lifelong
+                  learning and entrepreneurship skills.
+                </li>
+                <li>
+                  Produce graduates in the field of IT with necessary
+                  professional skills that can propose, plan, design, build,
+                  develop, manage, maintain and secure technological solutions
+                  and infrastructures that can help Afghanistan in building a
+                  transparent, reliable, strong, self-sustainable and affordable
+                  IT systems
+                </li>
+              </ul>
+            </div>
+            <div class="content content-2-3">
+              <p class="about-par">
+                This department’s objective is to train IT professionals in the
+                field of Information and Communication Technology. The IT
+                Department curriculum is also aligned and focused to achieve
+                this objective. The IT professionals that will be graduated from
+                this department can be employed at various organizations and
+                they can work as system administrators, network administrator,
+                network engineers, network specialists, network designers,
+                security experts, IT managers, web developer and database
+                administrators; students are also familiar with cybercrimes.
+              </p>
+            </div>
+            <div class="content content-2-4">
+              <ol>
+                <li>Sebghatullah Aslamzai</li>
+                <li>Sayed Abid Sadat</li>
+                <li>Omar Salim Mohmand</li>
+                <li>M. Yahya Akhlaqi</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="se" class="section">
+      <div class="main">
+        <h3>DEPARTMENT OF SOFTWARE ENGINEERING</h3>
+
+        <div id="operation" class="operations">
+          <div class="operation-tab3">
+            <button class="tab-btn tab-1 active-tab3" data-tab="1">
+              <span>01</span>
+              <h5>Vision</h5>
+            </button>
+            <button class="tab-btn tab-2" data-tab="2">
+              <span>02</span>
+              <h5>Mission</h5>
+            </button>
+            <button class="tab-btn tab-3" data-tab="3">
+              <span>03</span>
+              <h5>Goals</h5>
+            </button>
+            <button class="tab-btn tab-4" data-tab="4">
+              <span>04</span>
+              <h5 style="font-size: 16px">department members</h5>
+            </button>
+          </div>
+          <div class="operation-content">
+            <div class="content content-3-1 active-content3">
+              <p class="about-par">
+                Software Engineering Department will act to be the center of
+                excellence for studies and research. The graduates of this
+                department will be recognized as high skilled software
+                developers, analytical and critical thinkers in the field of
+                software engineering and they will contribute in the development
+                and economy of the country by providing the needed software and
+                services.
+              </p>
+            </div>
+            <div class="content content-3-2">
+              <ul>
+                <li>
+                  To provide high quality education for the graduate and
+                  undergraduate students of this department, enabling them to be
+                  successful leaders and innovators capable of meeting complex
+                  challenges.
+                </li>
+                <li>
+                  To promote qualities of leadership professionalism, teamwork
+                  spirit, critical and analytical thinking, and cultural
+                  sensitivity among staff and students.
+                </li>
+                <li>
+                  To ensure training of students so that they have sound moral
+                  and ethical values, thereby becoming a useful part of the
+                  society and thus contributing positively to the socio-economic
+                  growth of the country.
+                </li>
+              </ul>
+            </div>
+            <div class="content content-3-3">
+              <ul>
+                <li>
+                  Ability to design, develop, test, maintain, reengineer and
+                  analyze different types of software systems.
+                </li>
+                <li>
+                  Ability to manage a software project from writing proposal,
+                  planning and scheduling, risk management, monitoring, and
+                  reporting using modern project management tools such as,
+                  configuration management tools.
+                </li>
+                <li>
+                  Ability to apply knowledge of science, mathematics, computer
+                  science principles and other relevant field of studies to
+                  solve complex computing problems.
+                </li>
+              </ul>
+            </div>
+            <div class="content content-3-4">
+              <ol>
+                <li>Sayed Hassan Adelyar</li>
+                <li>Abdul Wahid Samadzai</li>
+                <li>Sayed Najmudinn Sadat</li>
+                <li>Ahmad Roheed Khaliqyar</li>
+                <li>Mohmmad Salim Hamdard</li>
+                <li>Zakia Rahimi</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="main-footer"></div>
+      <!-- <img src="img/header.jpg" alt="" style="width: 1350px" /> -->
+      <div class="main-footer">
+        <p class="copy" style="font-family: 'Courier New', Courier, monospace">
+          Computer Science Faculty | Kabul University, Kabul, Afghanistan
+        </p>
+        <div class="media">
+          <i class="fa-brands fa-facebook social-icon"></i>
+          <i class="fa-solid fa-envelope social-icon"></i>
+          <i class="fa-brands fa-instagram ins social-icon"></i>
+          <i class="fa-brands fa-whatsapp wha social-icon"></i>
+          <i class="fa-brands fa-twitter social-icon"></i>
+          <i class="fa-brands fa-linkedin-in social-icon"></i>
+        </div>
+        <i class="fa-solid fa-computer logo-icon ic"></i>
+        <p class="copy">&copy; Copyright by Abdul Waris Ayazi.</p>
+      </div>
+      <div class="main-footer"></div>
+    </footer>
+
+    <script>
+      const tabsContainer = document.querySelectorAll(".operation-tab");
+      const tabsContainer2 = document.querySelectorAll(".operation-tab2");
+      const tabsContainer3 = document.querySelectorAll(".operation-tab3");
+      const tabs = document.querySelectorAll(".tab-btn");
+      const content = document.querySelectorAll(".content");
+
+      tabsContainer.forEach((e) =>
+        e.addEventListener("click", function (e) {
+          const click = e.target.closest(".tab-btn");
+          console.log(click);
+
+          if (!click) return;
+          if (click) {
+            tabs.forEach((t) => t.classList.remove("active-tab"));
+            click.classList.add("active-tab");
+
+            content.forEach((c) => c.classList.remove("active-content"));
+            document
+              .querySelector(`.content-${click.dataset.tab}`)
+              .classList.add("active-content");
+          }
+        })
+      );
+      tabsContainer2.forEach((e) =>
+        e.addEventListener("click", function (e) {
+          const click = e.target.closest(".tab-btn");
+          console.log(click);
+
+          if (!click) return;
+          if (click) {
+            tabs.forEach((t) => t.classList.remove("active-tab2"));
+            click.classList.add("active-tab2");
+
+            content.forEach((c) => c.classList.remove("active-content2"));
+            document
+              .querySelector(`.content-2-${click.dataset.tab}`)
+              .classList.add("active-content2");
+          }
+        })
+      );
+      tabsContainer3.forEach((e) =>
+        e.addEventListener("click", function (e) {
+          const click = e.target.closest(".tab-btn");
+          console.log(click);
+
+          if (!click) return;
+          if (click) {
+            tabs.forEach((t) => t.classList.remove("active-tab3"));
+            click.classList.add("active-tab3");
+
+            content.forEach((c) => c.classList.remove("active-content3"));
+            document
+              .querySelector(`.content-3-${click.dataset.tab}`)
+              .classList.add("active-content3");
+          }
+        })
+      );
+    </script>
+    <script src="../script.js"></script>
+  </body>
+</html>
